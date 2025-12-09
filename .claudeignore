@@ -1,0 +1,57 @@
+# Claude Code Ignore File
+# Prevents context pollution with noise files
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+.venv/
+env/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+target/
+
+# Lock files (huge, no semantic value)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
+Gemfile.lock
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
