@@ -63,7 +63,7 @@
 ### Action Plan (Systematic)
 
 #### Phase 1: Fix Tools (LOCAL ONLY)
-- [ ] Create gemini-api.py locally at ~/scripts/
+- [x] Create gemini-api.py locally at ~/scripts/
 - [ ] Test with local API key
 - [ ] Verify it works without OAuth
 - [ ] Document usage
